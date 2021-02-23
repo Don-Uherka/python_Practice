@@ -1,4 +1,8 @@
-first = "Don"
-last = "Uherka"
-full = f"{first} {last}"  # this is the same as "first + " " + last"
-print(full)
+course = "Python Programming"
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.strip())  # this method will take any white space out of the string
+print(course.find(Pro))  # this method is case sensitive
+print(course.replace("P", "-"))
+print("Programming" in course)
