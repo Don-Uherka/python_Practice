@@ -1,8 +1,10 @@
-course = "Python Programming"
-print(course.upper())
-print(course.lower())
-print(course.title())
-print(course.strip())  # this method will take any white space out of the string
-print(course.find(Pro))  # this method is case sensitive
-print(course.replace("P", "-"))
-print("Programming" in course)
+x = 10
+x = 0b10
+print(bin(x))
+
+x = 0x12c
+print(hex(x))
+
+# a + bi
+x = 1 + 2j
+print(x)
