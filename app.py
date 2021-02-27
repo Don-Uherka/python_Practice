@@ -1,10 +1,12 @@
-x = 10
-x = 0b10
-print(bin(x))
+x = 10 + 3
+x = 10 - 3
+x = 10 * 3
+x = 10 / 3
+x = 10 // 3
+x = 10 % 3
+x = 10 ** 3
 
-x = 0x12c
-print(hex(x))
+x = x + 1
+x += 1
 
-# a + bi
-x = 1 + 2j
 print(x)
