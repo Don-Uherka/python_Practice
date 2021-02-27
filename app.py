@@ -1,12 +1,10 @@
-x = 10 + 3
-x = 10 - 3
-x = 10 * 3
-x = 10 / 3
-x = 10 // 3
-x = 10 % 3
-x = 10 ** 3
+import math
 
-x = x + 1
-x += 1
+print(math.floor(PI))
 
-print(x)
+
+PI = 3.14
+
+
+print(round(PI))
+print(abs(PI))
