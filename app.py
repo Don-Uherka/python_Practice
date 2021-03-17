@@ -1,7 +1,7 @@
-names = ["John", "Mary"]
-for name in names:
-    if name.startswith("J"):
-        print("Found")
-        break
+guess = 0
+answer = 5
+
+while answer != guess:
+    guess = int(input("Guess: "))
 else:
-    print("Not found")
+    pass
