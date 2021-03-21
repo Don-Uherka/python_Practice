@@ -1,7 +1,7 @@
-guess = 0
-answer = 5
+def save_user(**user)
 
-while answer != guess:
-    guess = int(input("Guess: "))
-else:
-    pass
+
+print(user["id"])
+
+
+save_user(id=1, name="admin")
