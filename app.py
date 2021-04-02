@@ -1,9 +1,8 @@
-letters = ["a", "b", "c"]
-matrix = [[0, 1], [2, 3]]
-zeros = [0] * 5
-numbers = list(range(20))  # this will create a list of numbers from 0-20
-# this will give you each individual chars in the string as a list
-chars = list("Hello World")
-combined = zeros + letters
+letters = ["a", "b", "c", "d"]
+letters[0] = "A"
+print(letters[0:3])
+print(letters[::2])  # this will skip the second char in the list
 
-# when you print and use the length function (len) with a list it will give you the length of that list
+
+numbers = list(range(20))
+print(numbers[::-1])  # this will return the list in reverse order
